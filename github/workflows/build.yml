@@ -12,7 +12,7 @@ jobs:
 
       - name: Unzip project
         run: |
-          unzip NEETOMRScanner1.zip
+          unzip NEETOMRScanner.zip
           cp -r NEETOMRScanner/. .
 
       - name: Set up JDK 17
